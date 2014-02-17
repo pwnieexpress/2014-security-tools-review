@@ -1,8 +1,9 @@
 # Automater
 
-**Language:** Python
-**Last Active:**
-**Website:** http://www.tekdefense.com/automater/
+###### **Language:** Python
+###### **Last Active:** Jan 07, 2014
+###### **License:** MIT
+###### **Website:** http://www.tekdefense.com/automater/
 
 **From the website:**
 
