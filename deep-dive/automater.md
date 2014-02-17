@@ -5,7 +5,7 @@
 ###### **License:** MIT
 ###### **Website:** http://www.tekdefense.com/automater/
 
-**From the website:**
+###### **From the website:**
 
 > Automater is a URL/Domain, IP Address, and Md5 Hash OSINT tool aimed at making
 > the analysis process easier for intrusion Analysts. Given a target (URL, IP, or
@@ -14,13 +14,26 @@
 > unshorten.me, Urlvoid.com, Labs.alienvault.com, ThreatExpert, VxVault, and
 > VirusTotal. 
 
+## Summary
+
+### General 
+
+This is a useful tool. It would benefit from being treated as a more unified
+package / project but the fact that it is on Github makes this easier. 
+
+### Code
+
+The code is well written, formatted and documented. It could have some
+improvements related to version dependencies (see below) as well as a CHANGELOG
+file to let people know what changes were made and when .
+
 ## Install on Kali
 
 ```bash
 sudo apt-get install automater
 ```
 
-On first installation from kali it worked fine but errored I tried to start it. 
+On first installation from kali it worked fine but errored when I tried to start it. 
 
 ```bash
 root@kali-host:~# automater 
@@ -204,6 +217,4 @@ No results found for: [+] Malicious Indicators from ThreatExpert:
 No results found for: [+] Date found at VXVault:
 No results found for: [+] URL found at VXVault:
 ```
-
-
 
