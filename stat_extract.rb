@@ -10,6 +10,7 @@ def parse_csv(filename)
     row.to_h.each do |key, value|
       next if key.nil? || value.nil?
       new_key = key.downcase.gsub(" ", "_").to_sym
+      new_key = :license if new_key == :os_license
 
       value = value.upcase if new_key == :researcher
       value = Date.strptime(value, '%m/%d/%Y') if [:initial_release, :last_active_data].include?(new_key)
@@ -21,5 +22,17 @@ def parse_csv(filename)
   end
 end
 
-puts parse_csv('data/tool_list_research.csv').inspect
+def breakdown_by_license(data)
+  licenses = Hash.new(0)
+
+  data.each do |tool|
+    licenses[tool[:license]] += 1
+  end
+
+  licenses
+end
+
+data = parse_csv('data/tool_list_research.csv')
+puts breakdown_by_license(data).inspect
+#puts data.inspect
 
