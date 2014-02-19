@@ -178,7 +178,7 @@ are found.","Kali repos",,,,,,,,,,,
 "jigsaw","bc",,"Information Gathering","Ruby","http://santoshdudhade.blogspot.com/2012/09/jigsaw-information-gathering-tool.html","GPLv3",,"Royce Davis (@r3dy__)",1/1/2013,12/9/2013,,"Is a simple ruby script for enumerating information about a company's employees. It is useful for Social Engineering or Email Phishing.","Kali repos",,,,,,,,,,,
 "firmware-mod-kit","bc",,"Hardware Hacking","SH","https://code.google.com/p/firmware-mod-kit/","MIT","SVN","jeremy.collake@gmail.com",1/1/2013,11/22/2013,,"This kit is a collection of scripts and utilities to extract and rebuild linux based firmware images.","Kali repos",,,,,,,,,,,
 "truecrack","SS",,"Information Gathering","C","https://code.google.com/p/truecrack/","GPLv3","SVN","luck87",1/13/2013,11/27/2013,,,"Kali repos",,,,,,,,,,,
-"siege","gk",,"Stress Testing","C","http://www.joedog.org/JoeDog/Siege","GPL",,"Jeff Fulmer",3/17/2013,10/17/2013,,,"Kali repos",,,,,,,,,,,
+"siege","gk",,"Stress Testing","C","http://www.joedog.org/JoeDog/Siege","GPLv2",,"Jeff Fulmer",3/17/2013,10/17/2013,,,"Kali repos",,,,,,,,,,,
 "pdf-parser","ow",,"Forensics","PHP","https://github.com/smalot/pdfparser","GPLv3","Git"," Sebastien MALOT smalot ",8/30/2013,1/29/2014,,"PdfParser, a standalone PHP library, provides various tools to extract data from a PDF file.","Kali repos",,,,,,,,,,,
 "binwalk","gk",,"Reverse Engineering","c, python","http://binwalk.org/","MIT","Git","https://github.com/devttys0",11/10/2013,2/4/2014,,"github: https://github.com/devttys0/binwalk","Kali repos",,,,,,,,,,,
 "lbd","bc",,"Information Gathering","Bash","http://ge.mine.nu/code/lbd","GPLv2",,"Stefan dot Behte at gmx dot net",,,," lbd (load balancing detector) detects if a given domain uses
