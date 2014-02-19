@@ -22,6 +22,20 @@ def parse_csv(filename)
   end
 end
 
+def breakdown_by_language(data)
+  languages = Hash.new(0)
+
+  data.each do |tool|
+    next if tool[:language].nil?
+
+    tool[:language].split(",").each do |lang|
+      languages[lang.strip] += 1
+    end
+  end
+
+  languages
+end
+
 def breakdown_by_license(data)
   licenses = Hash.new(0)
 
@@ -33,6 +47,7 @@ def breakdown_by_license(data)
 end
 
 data = parse_csv('data/tool_list_research.csv')
-puts breakdown_by_license(data).inspect
+#puts breakdown_by_license(data).inspect
+puts breakdown_by_language(data).inspect
 #puts data.inspect
 
