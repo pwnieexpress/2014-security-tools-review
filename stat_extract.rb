@@ -26,9 +26,8 @@ def breakdown_by_language(data)
   languages = Hash.new(0)
 
   data.each do |tool|
-    next if tool[:language].nil?
-
-    tool[:language].split(",").each do |lang|
+    clean_lang = tool[:language] || "Missing"
+    clean_lang.split(",").each do |lang|
       languages[lang.strip] += 1
     end
   end
@@ -40,14 +39,14 @@ def breakdown_by_license(data)
   licenses = Hash.new(0)
 
   data.each do |tool|
-    licenses[tool[:license]] += 1
+    licenses[tool[:license] || "Missing"] += 1
   end
 
   licenses
 end
 
 data = parse_csv('data/tool_list_research.csv')
-#puts breakdown_by_license(data).inspect
+puts breakdown_by_license(data).inspect
 puts breakdown_by_language(data).inspect
 #puts data.inspect
 
