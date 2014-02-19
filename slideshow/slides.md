@@ -81,7 +81,6 @@ The Tools
 First, the Best
 ==============
 
-
 * Aircrack
 * Armitage
 * Burp Suite
@@ -95,25 +94,30 @@ First, the Best
 
 *We completely ignored these...*
 
-Tool 1
+Disclaimer
+==========
+
+*We aren't trying to pick on anyone.*
+
+Automater
+=========
+
+Creepy
 ======
 
-Tool 2
+DHCPig
 ======
 
-Tool 3
+Fierce
 ======
 
-Tool 4
-======
+p0f
+===
 
-Tool 5
-======
+Wifi Honey
+==========
 
-Tool 6
-======
-
-Tool 7
+Xprobe2
 ======
 
 Tool 8
@@ -148,9 +152,29 @@ Base Language by Year
 ...
 
 Licenses
-=============
+========
 
-...
+* Important!
+* Good coders want to work on software with good licenses
+* We need to improve on this front too
+
+GPLv3
+=====
+
+MIT
+===
+
+BSD
+===
+
+Others
+======
+
+* http://tldrlegal.com (*not a replacement for an actualy lawyer*)
+
+Code Quality
+============
+
 
 Revision Control
 ================
@@ -186,6 +210,8 @@ Use Version Control
 * Github is awesome
 * Acts as a changelog
 
+![git er done](http://memedad.com/memes/123543.jpg)
+
 Package for the Community
 =========================
 
@@ -197,6 +223,12 @@ Don't reinvent the wheel
 
 * Open PRs to existing projects or fork the project 
 * **Note: this only works if people make their code accessible to the community**
+
+Bottom Line
+===========
+
+* [Hackers] - [Coders] != []
+* Set up your scripts as an Open Source project and you are more likely to get the help you need and your project deserves. 
 
 Other Resources
 ===============
