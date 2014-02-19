@@ -2,6 +2,14 @@
 
 require 'csv'
 require 'date'
+require 'json'
+
+# A way to pretty print-ish an object
+def jp(object)
+  puts JSON.pretty_generate(object)
+rescue
+  puts "Unabled to display #{object.class} classes"
+end
 
 def parse_csv(filename)
   CSV.parse(File.read(filename), headers: true).map do |row|
@@ -56,9 +64,40 @@ def breakdown_by_start_year(data)
   years
 end
 
+def language_by_year(data)
+  years = {}
+
+  data.each do |tool|
+    next unless tool[:initial_release] && tool[:language]
+    clean_lang = tool[:language] || "Missing"
+    clean_lang.split(",").each do |lang|
+      years[tool[:initial_release].year] ||= Hash.new(0)
+      years[tool[:initial_release].year][lang.strip] += 1
+    end
+  end
+
+  years
+end
+
+def license_by_year(data)
+  years = {}
+
+  data.each do |tool|
+    next unless tool[:initial_release] && tool[:license]
+    years[tool[:initial_release].year] ||= Hash.new(0)
+    years[tool[:initial_release].year][tool[:license]] += 1
+  end
+
+  years
+end
+
 data = parse_csv('data/tool_list_research.csv')
-puts breakdown_by_license(data).inspect
-puts breakdown_by_language(data).inspect
-puts breakdown_by_start_year(data).inspect
+
+jp breakdown_by_license(data)
+jp breakdown_by_language(data)
+jp breakdown_by_start_year(data)
+jp language_by_year(data)
+jp license_by_year(data)
+
 #puts data.inspect
 
