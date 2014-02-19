@@ -193,6 +193,23 @@ Add a License
 * Avoids legal concerns for people to integrate your tools
 * In general people are pretty good about attribution
 
+Use Version Control
+===================
+
+* Github is awesome
+* Acts as a changelog
+
+![git er done](http://memedad.com/memes/123543.jpg)
+
+Readable Code == Maintainable Code
+==================================
+
+Naming Your Project / Functions
+===============================
+
+Comment Your Code
+=================
+
 Consumable Data
 ===============
 
@@ -204,13 +221,6 @@ Consumable Data
 * What other tools would it be well suited to?
 * Are there existing formats or standards to represent the data you are providing?
 
-Use Version Control
-===================
-
-* Github is awesome
-* Acts as a changelog
-
-![git er done](http://memedad.com/memes/123543.jpg)
 
 Package for the Community
 =========================
@@ -264,4 +274,3 @@ Q & A
 ░░░░░░▀▄▄▄▄▄▄▀▀▀▒▒▒▒▒▄▄▀░░░░░
 ░░░░░░░░░▒▒▒▒▒▒▒▒▒▒▀▀░░░░░░░░
 ```
-
