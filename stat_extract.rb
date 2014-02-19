@@ -45,8 +45,20 @@ def breakdown_by_license(data)
   licenses
 end
 
+def breakdown_by_start_year(data)
+  years = Hash.new(0)
+
+  data.each do |tool|
+    next unless tool[:initial_release]
+    years[tool[:initial_release].year] += 1
+  end
+
+  years
+end
+
 data = parse_csv('data/tool_list_research.csv')
 puts breakdown_by_license(data).inspect
 puts breakdown_by_language(data).inspect
+puts breakdown_by_start_year(data).inspect
 #puts data.inspect
 
