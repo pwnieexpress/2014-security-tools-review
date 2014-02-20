@@ -45,6 +45,13 @@ Goals
   * Package
   * Overall Code Quality
 
+What This Talk is Not
+=====================
+
+* A new tool release
+* How to hack a...
+* Marketing
+
 Research Sources
 ================
 
