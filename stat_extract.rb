@@ -6,7 +6,8 @@ require 'json'
 
 # A way to pretty print-ish an object
 def jp(object)
-  puts JSON.pretty_generate(object)
+  #puts JSON.pretty_generate(object)
+  puts object.inspect
 rescue
   puts "Unabled to display #{object.class} classes"
 end
@@ -21,7 +22,7 @@ def parse_csv(filename)
       new_key = :license if new_key == :os_license
 
       value = value.upcase if new_key == :researcher
-      value = Date.strptime(value, '%m/%d/%Y') if [:initial_release, :last_active_data].include?(new_key)
+      value = Date.strptime(value, '%m/%d/%Y') if [:initial_release, :last_active_date].include?(new_key)
 
       data[new_key] = value
     end
@@ -91,13 +92,26 @@ def license_by_year(data)
   years
 end
 
+def length_of_project(data)
+  length = []
+
+  data.each do |tool|
+    next unless tool[:initial_release] && tool[:last_active_date]
+    length << (tool[:last_active_date] - tool[:initial_release]).to_i
+  end
+
+  length
+end
+
 data = parse_csv('data/tool_list_research.csv')
 
-jp breakdown_by_license(data)
-jp breakdown_by_language(data)
-jp breakdown_by_start_year(data)
-jp language_by_year(data)
-jp license_by_year(data)
+#jp breakdown_by_license(data)
+#jp breakdown_by_language(data)
+#jp breakdown_by_start_year(data)
+#jp language_by_year(data)
+#jp license_by_year(data)
+
+jp length_of_project(data)
 
 #puts data.inspect
 

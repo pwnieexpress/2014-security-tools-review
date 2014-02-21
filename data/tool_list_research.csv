@@ -240,7 +240,7 @@ daveaitel@hotmail.com",,4/13/2004,,,"Kali repos",,,,,,,,,,,
 "rdd","gk",,"Forensics","C",,,,,,,,,"Kali repos",,,,,,,,,,,
 "readpst","gk",,,"C","http://www.five-ten-sg.com/libpst/","None","Mercurial",,,12/27/2013,,,"Kali repos",,,,,,,,,,,
 "reaver","gk",,"Wireless Attacks","C","http://code.google.com/p/reaver-wps/","GPLv2","SVN","http://www.tacnetsol.com/",,10/20/2013,,,"Kali repos",,,,,,,,,,,
-"rebind","gk",,"Exploitation Tools","C","https://code.google.com/p/rebind/","MIT","SVN",,,"http://www.tacnetsol.com/",,,"Kali repos",,,,,,,,,,,
+"rebind","gk",,"Exploitation Tools","C","https://code.google.com/p/rebind/","MIT","SVN",,,,,,"Kali repos",,,,,,,,,,,
 "recoverjpeg","gk",,"Forensics","C","http://www.rfc1149.net/devel/recoverjpeg","GPLv2","Git","Jan Funke
 Samuel Tardieu",,4/30/2013,,"https://github.com/samueltardieu/recoverjpeg","Kali repos",,,,,,,,,,,
 "redfang","gk",,"Wireless Attacks","C",,"None",,"Ollie Whitehouse/@stake",,,,,"Kali repos",,,,,,,,,,,
