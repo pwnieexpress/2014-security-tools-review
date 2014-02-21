@@ -144,9 +144,10 @@ Stats
 Project Activity
 ================
 
-* Average last active 
-* Average project started
-* Average age from first to last
+Shortest Project Length (days): 0
+Average Project Length (days): 1425
+Median Project Length (days): 840
+Longest Project Length (days): 6518
 
 Language
 ========
