@@ -16,7 +16,7 @@ def parse_csv(filename)
   CSV.parse(File.read(filename), headers: true).map do |row|
     data = {}
 
-    row.to_h.each do |key, value|
+    row.to_hash.each do |key, value|
       next if key.nil? || value.nil?
       new_key = key.downcase.gsub(" ", "_").to_sym
       new_key = :license if new_key == :os_license
