@@ -112,9 +112,10 @@ data = parse_csv('data/tool_list_research.csv')
 #jp license_by_year(data)
 
 length = length_of_project(data)
-median = (length[(length.size - 1) / 2] + length[length.size / 2]) / 2.0
+median = (length[(length.size - 1) / 2] + length[length.size / 2]) / 2
 
 puts "Shortest Project Length (days): #{length.min}"
+puts "Average Project Length (days): #{length.inject(&:+) / length.size}"
 puts "Median Project Length (days): #{median}"
 puts "Longest Project Length (days): #{length.max}"
 
