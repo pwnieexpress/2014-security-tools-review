@@ -160,28 +160,32 @@ Code Quality
 Licenses
 ========
 
-![licenses](../graphs/licenses.png)
-
 * Important!
 * Good coders want to work on software with good licenses
 * We need to improve on this front too
 
-Base Licenses by Year
-=====================
+Licenses
+========
+
+![licenses](../graphs/licenses.png)
+
+
+Licenses
+========
 
 ![lang per year](../graphs/licenses_by_year.png)
 
-GPL
-=====
+Licenses: GPL
+==============
 
-MIT
-===
+Licenses: MIT
+==============
 
-BSD
-===
+Licenses: BSD
+==============
 
-Others
-======
+Licenses: Others
+================
 
 * http://tldrlegal.com (*not a replacement for an actualy lawyer*)
 
