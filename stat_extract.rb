@@ -6,8 +6,9 @@ require 'json'
 
 # A way to pretty print-ish an object
 def jp(object)
+  puts JSON.generate(object)
   #puts JSON.pretty_generate(object)
-  puts object.inspect
+  #puts object.inspect
 rescue
   puts "Unabled to display #{object.class} classes"
 end
@@ -114,10 +115,19 @@ data = parse_csv('data/tool_list_research.csv')
 length = length_of_project(data)
 median = (length[(length.size - 1) / 2] + length[length.size / 2]) / 2
 
-puts "Shortest Project Length (days): #{length.min}"
-puts "Average Project Length (days): #{length.inject(&:+) / length.size}"
-puts "Median Project Length (days): #{median}"
-puts "Longest Project Length (days): #{length.max}"
+#puts "Shortest Project Length (days): #{length.min}"
+#puts "Average Project Length (days): #{length.inject(&:+) / length.size}"
+#puts "Median Project Length (days): #{median}"
+#puts "Longest Project Length (days): #{length.max}"
+
+def csv_of_language_by_year(data)
+  result = language_by_year(data)
+  langs = result.map { |yr, langs| langs.map { |k, v| k }}.flatten.uniq
+  rows = [['', langs].flatten] + result.map { |yr, ln| [yr, langs.map { |l| ln[l] || 0 }].flatten }
+  rows.map { |r| r.join(",") }.join("\n")
+end
+
+puts csv_of_language_by_year(data)
 
 #puts data.inspect
 
