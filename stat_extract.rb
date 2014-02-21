@@ -100,7 +100,7 @@ def length_of_project(data)
     length << (tool[:last_active_date] - tool[:initial_release]).to_i
   end
 
-  length
+  length.sort
 end
 
 data = parse_csv('data/tool_list_research.csv')
@@ -111,7 +111,12 @@ data = parse_csv('data/tool_list_research.csv')
 #jp language_by_year(data)
 #jp license_by_year(data)
 
-jp length_of_project(data)
+length = length_of_project(data)
+median = (length[(length.size - 1) / 2] + length[length.size / 2]) / 2.0
+
+puts "Shortest Project Length (days): #{length.min}"
+puts "Median Project Length (days): #{median}"
+puts "Longest Project Length (days): #{length.max}"
 
 #puts data.inspect
 
