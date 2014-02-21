@@ -127,15 +127,6 @@ Wifi Honey
 Xprobe2
 ======
 
-Tool 8
-======
-
-Tool 9
-======
-
-Tool 10
-=======
-
 Stats
 =====
 
@@ -144,29 +135,43 @@ Stats
 Project Activity
 ================
 
-Shortest Project Length (days): 0
-Average Project Length (days): 1425
-Median Project Length (days): 840
-Longest Project Length (days): 6518
+* Shortest Project Length (days): 0
+* Average Project Length (days): 1425
+* Median Project Length (days): 840
+* Longest Project Length (days): 6518
 
-Language
-========
+Languages
+=========
 
-...
+![languages](../graphs/languages.png)
 
 Base Language by Year
 =====================
 
-...
+![lang per year](../graphs/langs_by_year.png)
+
+Code Quality
+============
+
+* follow community best practices
+* read a style guide
+* test coverage where possible
 
 Licenses
 ========
+
+![licenses](../graphs/licenses.png)
 
 * Important!
 * Good coders want to work on software with good licenses
 * We need to improve on this front too
 
-GPLv3
+Base Licenses by Year
+=====================
+
+![lang per year](../graphs/licenses_by_year.png)
+
+GPL
 =====
 
 MIT
@@ -180,8 +185,6 @@ Others
 
 * http://tldrlegal.com (*not a replacement for an actualy lawyer*)
 
-Code Quality
-============
 
 
 Revision Control
