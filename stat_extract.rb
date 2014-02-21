@@ -107,7 +107,7 @@ end
 data = parse_csv('data/tool_list_research.csv')
 
 #jp breakdown_by_license(data)
-#jp breakdown_by_language(data)
+# jp breakdown_by_language(data)
 #jp breakdown_by_start_year(data)
 #jp language_by_year(data)
 #jp license_by_year(data)
@@ -127,7 +127,28 @@ def csv_of_language_by_year(data)
   rows.map { |r| r.join(",") }.join("\n")
 end
 
-puts csv_of_language_by_year(data)
+def csv_of_license_by_year(data)
+  result = license_by_year(data)
+  langs = result.map { |yr, langs| langs.map { |k, v| k }}.flatten.uniq
+  rows = [['', langs].flatten] + result.map { |yr, ln| [yr, langs.map { |l| ln[l] || 0 }].flatten }
+  rows.map { |r| r.join(",") }.join("\n")
+end
+
+def csv_of_languages(data)
+  res = breakdown_by_language(data)
+  res.map{|l,c| [l,c].join(",")}.join("\n")
+end
+
+def csv_of_licenses(data)
+  res = breakdown_by_license(data)
+  res.map{|l,c| [l,c].join(",")}.join("\n")
+end
+
+
+# puts csv_of_license_by_year(data)
+# puts csv_of_language_by_year(data)
+# puts csv_of_languages(data)
+# puts csv_of_licenses(data)
 
 #puts data.inspect
 
