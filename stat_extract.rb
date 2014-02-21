@@ -106,14 +106,14 @@ end
 
 data = parse_csv('data/tool_list_research.csv')
 
+length = length_of_project(data)
+median = (length[(length.size - 1) / 2] + length[length.size / 2]) / 2
+
 #jp breakdown_by_license(data)
-# jp breakdown_by_language(data)
+#jp breakdown_by_language(data)
 #jp breakdown_by_start_year(data)
 #jp language_by_year(data)
 #jp license_by_year(data)
-
-length = length_of_project(data)
-median = (length[(length.size - 1) / 2] + length[length.size / 2]) / 2
 
 #puts "Shortest Project Length (days): #{length.min}"
 #puts "Average Project Length (days): #{length.inject(&:+) / length.size}"
@@ -144,11 +144,10 @@ def csv_of_licenses(data)
   res.map{|l,c| [l,c].join(",")}.join("\n")
 end
 
-
-# puts csv_of_license_by_year(data)
-# puts csv_of_language_by_year(data)
-# puts csv_of_languages(data)
-# puts csv_of_licenses(data)
+#puts csv_of_license_by_year(data)
+#puts csv_of_language_by_year(data)
+#puts csv_of_languages(data)
+#puts csv_of_licenses(data)
 
 #puts data.inspect
 
