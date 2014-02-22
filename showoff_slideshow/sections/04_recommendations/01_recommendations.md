@@ -5,8 +5,14 @@
 
 *What, you think we aren't opinionated?*
 
-<!SLIDE bullets incremental>
+<!SLIDE>
 
+# Add a License
+
+![license](../../images/mclovin.jpg)
+
+<!SLIDE bullets incremental>
+ 
 # Add a License
 
 * Avoid legal concerns for contributors
@@ -38,6 +44,8 @@
 
 # Use Version Control
 
+![version control](../../images/aliens.gif)
+
 <!SLIDE>
 # Use *Public* Version Control
 
@@ -60,11 +68,30 @@
 
 # Comment Your Code
 
+![comments](../../images/math.gif)
+
 <!SLIDE>
 
 # Consumable Outputs
 
+![output](../../images/ketchup.gif)
+
 <!SLIDE>
 
 # Package for the Community
+
+![package](../../images/magic_word.gif)
+
+<!SLIDE>
+
+# Don't reinvent the wheel
+
+* Open PRs to existing projects or fork the project 
+* **Note: this only works if people make their code accessible to the community**
+
+<!SLIDE>
+# Bottom Line
+
+* [Hackers] - [Coders] != []
+* Set up your scripts as an Open Source project and you are more likely to get the help you need and your project deserves. 
 

@@ -26,3 +26,6 @@
 <!SLIDE>
 
 # We already know they're good
+
+![clap](../../images/clap.gif)
+
