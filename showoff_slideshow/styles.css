@@ -18,4 +18,4 @@
 
 h1 { font-weight: 700; }
 
-.friendly img { width: 700px; }
+.friendly img { width: 700px; height: auto; }
