@@ -118,9 +118,9 @@
 * Open PRs to existing projects or fork the project 
 * **Note: this only works if people make their code accessible to the community**
 
-<!SLIDE>
+<!SLIDE bullets>
 # Bottom Line
 
-* [Hackers] - [Coders] != []
-* Set up your scripts as an Open Source project and you are more likely to get the help you need and your project deserves. 
+* Hackers != Software Engineers (most of the time)
+* Open Source projects are more likely to get the help the project deserves.
 
