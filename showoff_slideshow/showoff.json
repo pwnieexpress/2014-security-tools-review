@@ -1,1 +1,6 @@
-{ "name": "My Preso", "sections": [ {"section":"one"} ]}
+{
+  "name": "Pwn All the Things: State of modern penetration testing toolkit",
+  "sections": [
+    {"section":"intro"}
+  ]
+}
