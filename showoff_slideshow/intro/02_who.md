@@ -1,8 +1,8 @@
-!SLIDE
+<!SLIDE>
 
 # Who Are We?
 
-!SLIDE
+<!SLIDE>
 
 # Sam Stelfox
 
@@ -12,7 +12,7 @@ Twitter: @SamStelfox
 
 Website: http://www.stelfox.net
 
-!SLIDE
+<!SLIDE>
 
 # Gabe Koss
 
@@ -22,7 +22,7 @@ Twitter: @granolocks
 
 Website: http://gabekoss.com
 
-!SLIDE
+<!SLIDE>
 
 # Pwnie Express
 
