@@ -8,28 +8,34 @@
 * Average Project Length: **3.9 years**
 * Longest Project Length: **17.9 years**
 
-<!SLIDE center>
+<!SLIDE>
 
 # Language Breakdown
 
 ![languages](graphs/languages.png)
 
-<!SLIDE center>
+<!SLIDE>
 
 # Language By Year
 
 ![Languages by year](graphs/langs_by_year.png)
 
-<!SLIDE center>
+<!SLIDE>
 
 # License Selection
 
 ![Licenses](graphs/licenses.png)
 
-<!SLIDE center>
+<!SLIDE>
 
 # Licenses By Year
 
 ![Licenses by Year](graphs/licenses_by_year.png)
+
+<!SLIDE>
+
+# Version Control
+
+![Version Control](graphs/svc.png)
 
 

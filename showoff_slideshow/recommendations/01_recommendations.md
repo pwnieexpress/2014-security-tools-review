@@ -32,7 +32,7 @@
 
 * Consider how it'll impact contributors
 * Consider how it'll affect companies
-* http://tldrlegal.com (*not a replacement for an actualy lawyer*)
+* http://tldrlegal.com (*not a replacement for an actual lawyer*)
 
 <!SLIDE>
 
@@ -46,6 +46,8 @@
 <!SLIDE>
 
 # Readable Code == Maintainable Code
+
+![readable code](./web_dev_with_assembly.png)
 
 <!SLIDE>
 
