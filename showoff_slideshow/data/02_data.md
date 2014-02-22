@@ -8,7 +8,7 @@
 * Average Project Length: **3.9 years**
 * Longest Project Length: **17.9 years**
 
-<!SLIDE>
+<!SLIDE center>
 
 # Language Breakdown
 
