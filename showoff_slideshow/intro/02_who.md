@@ -12,6 +12,8 @@ Twitter: @SamStelfox
 
 Website: http://www.stelfox.net
 
+Github: sstelfox
+
 <!SLIDE>
 
 # Gabe Koss
@@ -21,6 +23,8 @@ Email: gabe@pwnieexpress.com
 Twitter: @granolocks
 
 Website: http://gabekoss.com
+
+Github: granolocks
 
 <!SLIDE>
 

@@ -1,6 +1,10 @@
 {
   "name": "Pwn All the Things: State of modern penetration testing toolkit",
   "sections": [
-    {"section":"intro"}
+    {"section":"intro"},
+    {"section":"tools"},
+    {"section":"stats"},
+    {"section":"recommendations"},
+    {"section":"outro"}
   ]
 }
