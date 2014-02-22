@@ -8,7 +8,7 @@
 * Use version control
 * Package your tool
 
-<!SLIDE>
+<!SLIDE small>
 
 # Other Resources
 
