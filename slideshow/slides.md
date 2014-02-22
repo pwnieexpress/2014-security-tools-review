@@ -189,8 +189,6 @@ Licenses: Others
 
 * http://tldrlegal.com (*not a replacement for an actualy lawyer*)
 
-
-
 Revision Control
 ================
 
