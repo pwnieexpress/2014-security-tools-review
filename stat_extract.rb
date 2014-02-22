@@ -45,6 +45,18 @@ def breakdown_by_language(data)
   languages
 end
 
+def breakdown_by_svc(data)
+  svc_hash = Hash.new(0)
+
+  data.each do |tool|
+    svc = tool[:version_control] || "Missing"
+    svc_hash[svc] += 1
+    puts svc
+  end
+
+  svc_hash
+end
+
 def breakdown_by_license(data)
   licenses = Hash.new(0)
 
@@ -114,6 +126,7 @@ median = (length[(length.size - 1) / 2] + length[length.size / 2]) / 2
 #jp breakdown_by_start_year(data)
 #jp language_by_year(data)
 #jp license_by_year(data)
+#jp breakdown_by_svc(data)
 
 #puts "Shortest Project Length (days): #{length.min}"
 #puts "Average Project Length (days): #{length.inject(&:+) / length.size}"
@@ -144,10 +157,16 @@ def csv_of_licenses(data)
   res.map{|l,c| [l,c].join(",")}.join("\n")
 end
 
+def csv_of_svc(data)
+  res = breakdown_by_svc(data)
+  res.map{|l,c| [l,c].join(",")}.join("\n")
+end
+
 #puts csv_of_license_by_year(data)
 #puts csv_of_language_by_year(data)
 #puts csv_of_languages(data)
 #puts csv_of_licenses(data)
+#puts csv_of_svc(data)
 
-#puts data.inspect
+puts data.inspect
 
