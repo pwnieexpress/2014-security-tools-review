@@ -2,4 +2,6 @@
 
 # Our results...
 
-![results](../../images/science.gif)
+<span class='friendly'>
+  ![results](../../images/science.gif)
+</span>

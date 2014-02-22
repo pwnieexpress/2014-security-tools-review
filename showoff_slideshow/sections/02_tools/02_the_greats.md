@@ -27,5 +27,7 @@
 
 # We already know they're good
 
-![clap](../../images/clap.gif)
+<span class='friendly'>
+  ![clap](../../images/clap.gif)
+</span>
 

@@ -9,42 +9,72 @@
 
 # Add a License
 
-![license](../../images/mclovin.jpg)
+<span class='friendly'>
+  ![license](../../images/mclovin.jpg)
+</span>
 
 <!SLIDE bullets >
  
 # Add a License
 
 * Avoid legal concerns for contributors
-* BSD & MIT are most friendly
-* Use GPLv3 if you're worried about commercial derivatives
 * In general people are good at attribution
+
+<!SLIDE bullet>
+
+# GPLv2
+
+* **Can:** Commercial Use, Modify, Distribute, Place Warranty 
+* **Cannot:** Sublicense, Hold Liable 
+* **Must:** Include Original, Disclose Source 
+
+*<small>source: tldrlegal.com</small>*
 
 <!SLIDE>
 
-# GPL
+# GPLv3
+
+* **Can:** Commercial Use, Modify, Distribute, Place Warranty 
+* **Cannot:** Sublicense, Hold Liable 
+* **Must:** Include Original, Disclose Source, *State Changes*
+
+*<small>source: tldrlegal.com</small>*
 
 <!SLIDE>
 
 # MIT
+* **Can:** Commercial Use, Modify, Distribute, Sublicense 
+* **Cannot:** Hold Liable 
+* **Must:** Include Copyright 
+
+*<small>source: tldrlegal.com</small>*
 
 <!SLIDE>
 
 # BSD
+* **Can:** Commercial Use, Modify, Distribute, Sublicense, Place Warranty 
+* **Cannot:** Use Trademark, Hold Liable
+* **Must:** Include Copyright 
 
-<!SLIDE bullets >
+*<small>source: tldrlegal.com</small>*
+
+<!SLIDE bullet>
 
 # Other Licenses
 
 * Consider how it'll impact contributors
 * Consider how it'll affect companies
-* http://tldrlegal.com (*not a replacement for an actual lawyer*)
+* Questions? http://tldrlegal.com
+  * ***Note:*** *not a replacement for an actual lawyer... and neither are we...*
 
 <!SLIDE>
 
 # Use Version Control
 
+<span class='friendly'>
 ![version control](../../images/aliens.gif)
+</span>
+
 
 <!SLIDE>
 # Use *Public* Version Control
@@ -68,19 +98,18 @@
 
 # Comment Your Code
 
-![comments](../../images/math.gif)
-
 <!SLIDE>
 
 # Consumable Outputs
 
+<span class='friendly'>
 ![output](../../images/ketchup.gif)
+</span>
+
 
 <!SLIDE>
 
 # Package for the Community
-
-![package](../../images/magic_word.gif)
 
 <!SLIDE>
 
