@@ -2,7 +2,7 @@
 
 # And now... the tools!
 
-<!SLIDE bullets incremental>
+<!SLIDE bullets >
 
 * We looked at 369 tools
 * Going to call out RANDOM choices

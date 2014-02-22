@@ -1,4 +1,4 @@
-<!SLIDE bullets incremental>
+<!SLIDE bullets>
 
 # Oh god. Why are we up here!?
 
@@ -6,7 +6,7 @@
 * That doesn't necessarily mean us
 * We're just the messengers
 
-<!SLIDE bullets incremental>
+<!SLIDE bullets>
 
 # We want tools too...
 

@@ -1,5 +1,5 @@
 
-<!SLIDE bullets incremental>
+<!SLIDE bullets >
 
 # What have we tried to teach?
 

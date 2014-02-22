@@ -11,7 +11,7 @@
 
 ![license](../../images/mclovin.jpg)
 
-<!SLIDE bullets incremental>
+<!SLIDE bullets >
  
 # Add a License
 
@@ -32,7 +32,7 @@
 
 # BSD
 
-<!SLIDE bullets incremental>
+<!SLIDE bullets >
 
 # Other Licenses
 

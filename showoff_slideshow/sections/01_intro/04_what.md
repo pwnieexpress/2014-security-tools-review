@@ -44,7 +44,7 @@
 * BlackArch (http://www.blackarch.org/)
 * ArchAssault (https://archassault.org/)
 
-<!SLIDE bullets incremental>
+<!SLIDE bullets >
 
 # Quick Note...
 
