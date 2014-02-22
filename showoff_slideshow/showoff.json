@@ -3,7 +3,7 @@
   "sections": [
     {"section":"intro"},
     {"section":"tools"},
-    {"section":"stats"},
+    {"section":"data"},
     {"section":"recommendations"},
     {"section":"outro"}
   ]
