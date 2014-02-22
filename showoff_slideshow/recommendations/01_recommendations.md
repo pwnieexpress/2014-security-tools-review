@@ -38,10 +38,13 @@
 
 # Use Version Control
 
-* Git is pretty easy to learn
+<!SLIDE>
+# Use *Public* Version Control
+
 * Github is awesome
 * Acts as public changelog
 * Public repos can build excitement
+* Requires zero maintenance to keep the project around forever
 
 <!SLIDE>
 
