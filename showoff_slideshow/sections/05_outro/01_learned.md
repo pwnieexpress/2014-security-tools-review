@@ -25,6 +25,8 @@
 
 # Q & A
 
+Slides & Research: https://github.com/pwnieexpress/2014-security-tools-review
+
 <div style='text-align: center;width:100%;'>
 <pre style='color: black; background-color: white; font-size: 1.87em; text-align:center; display: inline-block'>
 ░wow░░░░░▄░░░░░░░░░░░░░░▄░░░░
