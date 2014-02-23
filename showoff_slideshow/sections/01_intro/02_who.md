@@ -34,3 +34,6 @@ Twitter: @pwnieexpress
 
 Website: https://pwnieexpress.com
 
+***The content of this talk does not reflect the opinion or views of
+PwnieExpress. They are purely our own.***
+
