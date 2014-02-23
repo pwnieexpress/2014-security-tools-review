@@ -7,14 +7,14 @@
 * Installable package on Kali
 * THE tool for this task
 
-<!SLIDE bullets incremental>
+<!SLIDE bullets>
 
 # gpp-decrypt
 
 * No visible license
 * No (easy) way to submit improvements
 
-<!SLIDE bullets incremental>
+<!SLIDE bullets>
 
 # Ever heard of bit rot?
 
@@ -33,14 +33,14 @@
 * There is an active repo that has been updated...
 * ... but Kali isn't using it for it's packages
 
-<!SLIDE bullets incremental>
+<!SLIDE bullets>
 
 # Creepy
 
 * Disconnect between packager and developers
 * Packaged version has rotted
 
-<!SLIDE bullet>
+<!SLIDE bullets incremental>
 
 # Automater
 
@@ -48,10 +48,57 @@
 * Kali package not up-to-date with current release
 * Unresolved dependencies when installed from `apt-get` onto a kali system
 
-<!SLIDE bullet>
+<!SLIDE bullets>
 
 # Automater
 
 * Not quite packaged correctly (missing dependencies)
 * Packaged version doesn't match released code
+
+<!SLIDE bullets incremental>
+
+# p0f
+
+* Passive OS version identifier
+* Version 3 was a complete re-write
+* Flags change, output changed
+* Output could be easier to consume
+
+<!SLIDE>
+
+# p0f
+
+    .-[ 10.73.73.20/41245 -> 192.168.1.14/443 (syn) ]-
+    |
+    | client   = 10.73.73.20/41245
+    | os       = Linux 2.6.x
+    | dist     = 0
+    | params   = none
+    | raw_sig  = 4:64+0:0:1460:mss*4,6:mss,sok,ts,nop,ws:df,id+:0
+    |
+    `----
+
+<!SLIDE bullets>
+
+# p0f
+
+* Contributed to bit rot (sometimes it's necessary)
+* Output could be easier to consume for other tools
+
+<!SLIDE bullets incremental>
+
+# WifiHoney
+
+* Sets up AP to guess authentication type of client probe requests
+* Can help break AP's authentication
+* Kinda buggy
+* Kali version is a fork
+
+<!SLIDE bullets>
+
+# WifiHoney
+
+* No version control, or easy way to submit fixes
+* Disconnect between packagers and original source
+* No consumable output
 

@@ -8,7 +8,7 @@ implementation of the results.
 Status: Working
 
 ## Installation
-w
+
 On Kali you will need to have the following package installed:
 
 * xprobe
