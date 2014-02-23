@@ -6,7 +6,7 @@
 
 # Sam Stelfox
 
-Email: sam@pwnieexpress.com
+Email: sam@stelfox.net
 
 Twitter: @SamStelfox
 
@@ -18,7 +18,7 @@ Github: sstelfox
 
 # Gabe Koss
 
-Email: gabe@pwnieexpress.com
+Email: gabe@gabekoss.com
 
 Twitter: @granolocks
 
