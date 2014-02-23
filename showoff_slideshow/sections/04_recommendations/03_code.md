@@ -126,3 +126,10 @@ end
 * Abstracted Functionality
 * Slower Development Cycle
 
+<!SLIDE bullets>
+
+# Finding Balance
+
+* One off need to exist
+* Time & resource considerations
+* Follow minimal best practices
