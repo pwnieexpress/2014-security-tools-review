@@ -1,8 +1,6 @@
-<!SLIDE>
+<!SLIDE bullets>
 
 # And now... the tools!
-
-<!SLIDE bullets >
 
 * We looked at 369 tools
 * Going to call out RANDOM choices that had issues we want to call out
