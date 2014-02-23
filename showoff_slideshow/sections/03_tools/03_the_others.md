@@ -48,3 +48,10 @@
 * Kali package not up-to-date with current release
 * Unresolved dependencies when installed from `apt-get` onto a kali system
 
+<!SLIDE bullet>
+
+# Automater
+
+* Not quite packaged correctly (missing dependencies)
+* Packaged version doesn't match released code
+
