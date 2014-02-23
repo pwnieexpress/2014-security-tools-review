@@ -19,7 +19,7 @@
 
 # Readable Code == Maintainable Code
 
-![readable code](./web_dev_with_assembly.png)
+<img src="../../images/web_dev_with_assembly.png" style='height: 470px; width: auto;'>
 
 <!SLIDE>
 
@@ -102,9 +102,7 @@ end
 
 # Hackers != Software Engineers 
 
-<span class="friendly">
-![hacker v engineer](../../images/coder_vs_hacker.png)
-</span>
+<img src="../../images/coder_vs_hacker.png" style='height: 470px; width: auto;'>
 
 <small>image source: http://www.hanselman.com/</small>
 
