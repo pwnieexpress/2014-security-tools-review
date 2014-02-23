@@ -85,3 +85,20 @@
 * Contributed to bit rot (sometimes it's necessary)
 * Output could be easier to consume for other tools
 
+<!SLIDE bullets incremental>
+
+# WifiHoney
+
+* Sets up AP to guess authentication type of client probe requests
+* Can help break AP's authentication
+* Kinda buggy
+* Kali version is a fork
+
+<!SLIDE bullets>
+
+# WifiHoney
+
+* No version control, or easy way to submit fixes
+* Disconnect between packagers and original source
+* No consumable output
+
