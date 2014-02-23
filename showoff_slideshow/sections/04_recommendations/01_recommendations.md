@@ -14,7 +14,7 @@
 </span>
 
 <!SLIDE bullets >
- 
+
 # Add a License
 
 * Avoid legal concerns for contributors
@@ -106,7 +106,6 @@
 ![output](../../images/ketchup.gif)
 </span>
 
-
 <!SLIDE>
 
 # Package for the Community
@@ -119,6 +118,7 @@
 * **Note: this only works if people make their code accessible to the community**
 
 <!SLIDE bullets>
+
 # Bottom Line
 
 * Hackers != Software Engineers (most of the time)

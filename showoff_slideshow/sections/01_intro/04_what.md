@@ -1,4 +1,4 @@
-<!SLIDE bullets>
+<!SLIDE bullets incremental>
 
 # This talk is not...
 
@@ -44,7 +44,7 @@
 * BlackArch (http://www.blackarch.org/)
 * ArchAssault (https://archassault.org/)
 
-<!SLIDE bullets >
+<!SLIDE bullets incremental>
 
 # Quick Note...
 
