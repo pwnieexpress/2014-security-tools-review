@@ -130,6 +130,6 @@ end
 
 # Finding Balance
 
-* One off need to exist
+* One offs need to exist
 * Time & resource considerations
 * Follow minimal best practices
