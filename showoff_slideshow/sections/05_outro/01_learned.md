@@ -1,7 +1,7 @@
 
 <!SLIDE bullets >
 
-# What have we tried to teach?
+# What have we tried to share?
 
 * Some tools need some love...
 * Pick a friendly license
