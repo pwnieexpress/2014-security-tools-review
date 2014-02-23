@@ -6,6 +6,7 @@
 * Only exists as a blog post (that we found anyway)
 * Installable package on Kali
 * THE tool for this task
+
 <!SLIDE bullets incremental>
 
 # gpp-decrypt
@@ -39,3 +40,12 @@
 * Disconnect between packager and developers
 * Packaged version has rotted
 
+=======
+
+<!SLIDE bullet>
+
+# Automater
+
+* OSINT lookup tool for URLs, IPs or virus/malware signatures
+* Kali package not up-to-date with current release
+* Unresolved dependencies when installed from `apt-get` onto a kali system
