@@ -25,6 +25,12 @@
 
 # Code Quality
 
+<span class="friendly">
+![ios ssl](../../images/ios_ssl_code.png)
+</span>
+
+<small> *source: http://arstechnica.com/security/2014/02/extremely-critical-crypto-flaw-in-ios-may-also-affect-fully-patched-macs/* </small>
+
 <!SLIDE>
 
 # Comment Your Code
