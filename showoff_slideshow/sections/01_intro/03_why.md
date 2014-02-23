@@ -8,9 +8,10 @@
 
 <!SLIDE bullets incremental>
 
-# We want tools too...
+# We want tools to...
 
-* Be stable and safe
+* Be stable and reliable
 * Be available
 * Be useful
-
+* Be safe
+* Be open
