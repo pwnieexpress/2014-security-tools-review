@@ -1,11 +1,17 @@
-<!SLIDE bullets>
+<!SLIDE bullets incremental>
 
 # gpp-decrypt
 
 * Decrypts Server 2008 Group Policy Preferences files
-* Written by Carnal Ownage (Chris Gates)
 * Only exists as a blog post (that we found anyway)
 * Installable package on Kali
+* THE tool for this task
+<!SLIDE bullets incremental>
+
+# gpp-decrypt
+
+* No visible license
+* No (easy) way to submit improvements
 
 <!SLIDE bullets incremental>
 
@@ -20,8 +26,16 @@
 
 # Creepy
 
-* Attempts to geolocate a user based on their Twitter and Flikr profiles
+* Attempts to geolocate a user based on social network content
 * Twitter has changed it's API
 * Flikr has changed it's API
-* There is an active repo...
+* There is an active repo that has been updated...
 * ... but Kali isn't using it for it's packages
+
+<!SLIDE bullets incremental>
+
+# Creepy
+
+* Disconnect between packager and developers
+* Packaged version has rotted
+
