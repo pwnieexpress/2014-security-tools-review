@@ -7,6 +7,8 @@
 * Installable package on Kali
 * THE tool for this task
 
+<!SLIDE bullets incremental>
+
 # gpp-decrypt
 
 * No visible license
