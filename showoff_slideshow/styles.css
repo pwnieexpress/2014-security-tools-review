@@ -1,14 +1,9 @@
 #preso, .slide {
-  /* bsides was 640 x 480... */
-  width: 640;
-  height: 480;
-  /* 
   width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
   bottom: 0; 
-   */
   color: rgb(150, 255, 150);
   font-family: "Courier New", Courier, monospace;
   background: #45484d; /* Old browsers */
